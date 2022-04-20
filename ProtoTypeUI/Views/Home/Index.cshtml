@@ -1,0 +1,311 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+</div>
+
+<style>
+    .modal {
+        text-align: center;
+    }
+
+    @@media screen and (min-width: 768px) {
+        .modal:before {
+            display: inline-block;
+            vertical-align: middle;
+            content: " ";
+            height: 100%;
+        }
+    }
+
+    .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+</style>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Product Record</h2>
+@* Table for showing the list of Records from the database *@
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="OpenAddPopup();">Add New Product</button>
+<br />
+<br />
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Brand ID
+            </th>
+            <th>
+                Brand Name
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody class="tbody"></tbody>
+</table>
+
+@*BootsTrap Model Popup for Adding and Updating the Product Record *@
+<div class="modal fade" id="AddUpdateModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title" id="AddUpdateModelLabel">Add Product</h4>
+            </div>
+            <div class="modal-body">
+                <form id="myform">
+                    @* hidden filed for storing Id *@
+                    <input type="hidden" id="hfpatientId" />
+                    <div class="form-group">
+                        <label for="txtBrandId">Brand ID</label>
+                        <input type="text" class="form-control" id="txtBrandId" placeholder="Brand ID" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtBrandName">Brand Name</label>
+                        <input type="text" class="form-control" id="txtBrandName" placeholder="Brand Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtProductName">Product Name</label>
+                        <input type="email" class="form-control" id="txtProductName" placeholder="Product Name" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" class="btn btn-primary" id="btnAddProduct" onclick="return AddProduct();">Create Product</button>*@
+                <button type="button" class="btn btn-primary" id="btnAddProduct" onclick="AddProduct();">Create Product</button>
+                <button type="button" class="btn btn-primary" id="btnUpdateProduct" style="display:none;" onclick="UpdateProduct();">Update Product</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+    //Load Data in Table when documents is ready
+    $(document).ready(function () {
+        BindpatientData();
+    });
+
+    //Bind Data function which is responoisble for loading all data from database
+    function BindpatientData() {
+        $.ajax({
+            url: "http://localhost:40837/brandandproducts/",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+
+                if (result) {
+                    //itetrate thorugh each record and bind it to td
+                    var html = '';
+                    $.each(result, function (key, item) {
+                        html += '<tr>';
+                        html += '<td>' + item.brandId + '</td>';
+                        html += '<td>' + item.brandName + '</td>';
+                        html += '<td>' + item.productName + '</td>';
+                        html += '<td><a href="#" onclick="return OpenEditPopup(' + item.id + ')">Edit</a> | <a href="#" onclick="DeleleProduct(' + item.id + ')">Delete</a></td>';
+                        html += '</tr>';
+                    });
+                    $('.tbody').html(html);
+                }
+
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+    //************Adding Record in the database***********
+
+
+    function OpenAddPopup() {
+        //title text
+        $("#AddUpdateModelLabel").text("Add Product")
+        //clear all input
+        ClearAllInput();
+        //open popup
+        $('#AddUpdateModel').modal('show');
+        //show add patient button and hide update button
+        $('#btnUpdateProduct').hide();
+        $('#btnAddProduct').show();
+    }
+
+    //Add Data Function
+    function AddProduct() {
+        var res = ValidateUserInput();
+        if (res == false) {
+            return false;
+        }
+        var productObj = [{
+            //Id: $('#hfpatientId').val(),
+            brandId: $('#txtBrandId').val(),
+            brandName: $('#txtBrandName').val(),
+            productName: $('#txtProductName').val(),
+        }];
+
+        let myform = document.getElementById("myform");
+        let fd = new FormData(myform);
+
+        $.ajax({
+            //url: "/Patient/AddProduct",
+            url: "http://localhost:40837/brandandproducts/",
+            data: JSON.stringify(productObj),
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                //populate table with new record
+                BindpatientData();
+                //claer all input and hide model popup
+                ClearAllInput();
+                $('#AddUpdateModel').modal('hide');
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+    function OpenEditPopup(Id) {
+        $("#AddUpdateModelLabel").text("Update Product Detail")
+        ClearAllInput();
+        $.ajax({
+            //url: "/Patient/GetPatientbyID?PatientId=" + Id,
+            url: "http://localhost:40837/brandandproducts/" + Id,
+            typr: "GET",
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (result) {
+                $("#AddUpdateModelLabel").val("Update Product Detail")
+
+                $('#hfpatientId').val(result.id);
+                $('#txtBrandId').val(result.brandId);
+                $('#txtBrandName').val(result.brandName);
+                $('#txtProductName').val(result.productName);
+
+                $('#AddUpdateModel').modal('show');
+                $('#btnUpdateProduct').show();
+                $('#btnAddProduct').hide();
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+        return false;
+    }
+
+    //function for updating Product record
+    function UpdateProduct() {
+        var res = ValidateUserInput();
+        if (res == false) {
+            return false;
+        }
+        var productObj = {
+            id: $('#hfpatientId').val(),
+            brandId: $('#txtBrandId').val(),
+            brandName: $('#txtBrandName').val(),
+            productName: $('#txtProductName').val(),
+        };
+        if (!productObj.id || productObj.id <= 0) {
+            alert("Invalid Id!");
+            return false;
+        }
+        $.ajax({
+            //url: "/Patient/UpdateProduct",
+            url: "http://localhost:40837/brandandproducts/" + productObj.id,
+            data: JSON.stringify(productObj),
+            type: "PUT",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                var dsda = result;
+                BindpatientData();
+                ClearAllInput();
+            },
+            error: function (errormessage) {
+                BindpatientData();
+                ClearAllInput();
+                //alert(errormessage.responseText);
+            }
+        });
+    }
+
+    //function for deleting employee's record
+    function DeleleProduct(ID) {
+        var ans = confirm("Are you sure you want to delete?");
+        if (ans) {
+            $.ajax({
+                //url: "/Patient/DeletePatient?PatientId=" + ID,
+                url: "http://localhost:40837/brandandproducts/" + ID,
+                type: "DELETE",
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+                success: function (result) {
+                    BindpatientData();
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+        }
+    }
+
+    function ClearAllInput() {
+        $('#AddUpdateModel').modal('hide');
+        $('#hfpatientId').val("");
+        $('#txtBrandId').val("");
+        $('#txtBrandName').val("");
+        $('#txtProductName').val("");
+        $('#txtAddress').val("");
+        $('#txtBloodGroup').val("");
+
+        $('#txtBrandId').css('border-color', 'lightgrey');
+        $('#txtBrandName').css('border-color', 'lightgrey');
+        $('#txtProductName').css('border-color', 'lightgrey');
+        $('#txtAddress').css('border-color', 'lightgrey');
+        $('#txtBloodGroup').css('border-color', 'lightgrey');
+    }
+
+    function ValidateUserInput() {
+        var isValid = true;
+        if ($.isNumeric($('#txtBrandId').val().trim()) == false) {
+            $('#txtBrandId').css('border-color', 'Red');
+            isValid = false;
+        }
+        else {
+            $('#txtBrandId').css('border-color', 'lightgrey');
+        }
+        if ($('#txtBrandName').val().trim() == "") {
+            $('#txtBrandName').css('border-color', 'Red');
+            isValid = false;
+        }
+        else {
+            $('#txtBrandName').css('border-color', 'lightgrey');
+        }
+        if ($('#txtProductName').val().trim() == "") {
+            $('#txtProductName').css('border-color', 'Red');
+            isValid = false;
+        }
+        else {
+            $('#txtProductName').css('border-color', 'lightgrey');
+        }
+        return isValid;
+    }
+</script>
