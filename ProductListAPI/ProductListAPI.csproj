@@ -12,7 +12,6 @@
 		<ProjectReference Include="..\ProductList.Common\ProductList.Common.csproj" />
 		<ProjectReference Include="..\ProductList.Model\ProductList.Model.csproj" />
 		<ProjectReference Include="..\ProductList.Service\ProductList.Service.csproj" />
-		<ProjectReference Include="..\ProductListAPI.Common\ProductListAPI.Common.csproj" />
 	</ItemGroup>
 
 </Project>

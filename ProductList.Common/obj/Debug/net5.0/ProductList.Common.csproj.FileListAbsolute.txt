@@ -9,3 +9,4 @@ C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.dll
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ref\ProductList.Common.dll
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.csproj.AssemblyReference.cache

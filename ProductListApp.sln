@@ -15,9 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Service.UniTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductListAPI", "ProductListAPI\ProductListAPI.csproj", "{B3D8E984-7AC5-4186-B130-E263922EF3A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductListAPI.Common", "ProductListAPI.Common\ProductListAPI.Common.csproj", "{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListUI", "ProductListUI\ProductListUI.csproj", "{ADA33895-58DF-4D04-831B-B888A5E8CCFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductListUI", "ProductListUI\ProductListUI.csproj", "{ADA33895-58DF-4D04-831B-B888A5E8CCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +47,6 @@ Global
 		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
