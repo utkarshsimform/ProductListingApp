@@ -48,7 +48,7 @@ namespace ProtoTypeUI
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Products/Error");
             }
             app.UseStaticFiles();
 
@@ -62,7 +62,7 @@ namespace ProtoTypeUI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Products}/{action=Index}/{id?}");
             });
         }
     }

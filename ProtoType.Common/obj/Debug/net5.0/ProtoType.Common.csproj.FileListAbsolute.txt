@@ -20,3 +20,14 @@ C:\Users\utkarsh.prajapati\source\repos\ProtoType\ProtoType.Common\obj\Debug\net
 C:\Users\utkarsh.prajapati\source\repos\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.dll
 C:\Users\utkarsh.prajapati\source\repos\ProtoType\ProtoType.Common\obj\Debug\net5.0\ref\ProtoType.Common.dll
 C:\Users\utkarsh.prajapati\source\repos\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\bin\Debug\net5.0\ProtoType.Common.deps.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\bin\Debug\net5.0\ProtoType.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\bin\Debug\net5.0\ref\ProtoType.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\bin\Debug\net5.0\ProtoType.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.AssemblyInfoInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.AssemblyInfo.cs
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.csproj.CoreCompileInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ref\ProtoType.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Common\obj\Debug\net5.0\ProtoType.Common.pdb
