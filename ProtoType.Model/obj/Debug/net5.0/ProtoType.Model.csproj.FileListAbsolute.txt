@@ -40,3 +40,4 @@ C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Model\obj
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Model\obj\Debug\net5.0\ref\ProtoType.Model.dll
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Model\obj\Debug\net5.0\ProtoType.Model.pdb
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Model\obj\Debug\net5.0\ProtoType.Model.genruntimeconfig.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProtoType.Model\obj\Debug\net5.0\ProtoType.Model.csproj.AssemblyReference.cache

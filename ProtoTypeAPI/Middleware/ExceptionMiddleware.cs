@@ -1,4 +1,4 @@
-﻿using ProtoType.Model.DSTI;
+﻿using ProtoType.Model.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using ProtoType.Model.DSTI;
+using ProtoType.Model.Models;
 
 namespace ProtoTypeAPI.Extensions
 {

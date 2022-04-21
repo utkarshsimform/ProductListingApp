@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace ProtoType.Model.DSTI
+namespace ProtoType.Model.Models
 {
     /// <summary>
     /// 
