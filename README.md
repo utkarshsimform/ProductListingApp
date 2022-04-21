@@ -35,13 +35,13 @@ Database Name: ProtoType
 ### Project Architecture
 Specify your project architecture here. Suppose you are following Repository pattern then mention your all the projects along with short description here.
 
- - ProtoTypeAPI (End points to manage product)
- - ProtoType.Common (Contains references of other assemblies that are common among multiple projects) 
- - ProtoType.Repository (Contains database operations)
- - ProtoType.Model (Contains request, response and shared data model classes)
- - ProtoType.Service (Contains business logic)
- - ProtoTypeUI (Web app to interact) 
- - ProtoType.Service.UnitTests (Contains all the test methods)
+ - ProductListAPI (End points to manage product)
+ - ProductList.Common (Contains references of other assemblies that are common among multiple projects) 
+ - ProductList.Repository (Contains database operations)
+ - ProductList.Model (Contains request, response and shared data model classes)
+ - ProductList.Service (Contains business logic)
+ - ProductListUI (Web app to interact) 
+ - ProductList.Service.UnitTests (Contains all the test methods)
 
 ## Running the tests
 In this project we have used NUnit. You can run all the tests from the Test Explorer. If Test Explorer is not visible, choose  **Test**  on the Visual Studio menu, choose  **Windows**, and then choose  **Test Explorer**. All the unit tests will be listed so choose the test you want to run. You can also run alto tests by selecteing "Run All" option.
