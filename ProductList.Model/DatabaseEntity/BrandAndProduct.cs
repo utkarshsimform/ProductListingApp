@@ -8,7 +8,7 @@ namespace ProtoType.Model.DatabaseEntity
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        //[Required]
         public int BrandId { get; set; }
         public string BrandName { get; set; }        
         public int? CredentialId { get; set; }                

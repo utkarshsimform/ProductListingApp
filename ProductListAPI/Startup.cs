@@ -56,7 +56,8 @@ namespace ProtoTypeAPI
 
             services.AddDbContext<IProtoTypeContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString"),
-                b => b.MigrationsAssembly(typeof(IProtoTypeContext).Assembly.FullName)));
+                //b => b.MigrationsAssembly(typeof(IProtoTypeContext).Assembly.FullName)));
+                b => b.MigrationsAssembly("ProductListAPI")));
 
             services.AddControllers();
             services.AddTransient<IBrandAndProductRepository, BrandAndProductRepository>();
@@ -67,8 +68,9 @@ namespace ProtoTypeAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IProtoTypeContext dataContext)
         {
+            dataContext.Database.Migrate();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
