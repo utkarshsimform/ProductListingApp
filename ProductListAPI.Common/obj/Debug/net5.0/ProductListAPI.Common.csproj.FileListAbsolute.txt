@@ -1,0 +1,17 @@
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductListAPI.Common.deps.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductListAPI.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ref\ProductListAPI.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductListAPI.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductList.Model.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductList.Repository.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductList.Repository.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\bin\Debug\net5.0\ProductList.Model.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.csproj.AssemblyReference.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.AssemblyInfoInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.AssemblyInfo.cs
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.csproj.CoreCompileInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.csproj.CopyComplete
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ref\ProductListAPI.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductListAPI.Common\obj\Debug\net5.0\ProductListAPI.Common.pdb

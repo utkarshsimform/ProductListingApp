@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoTypeAPI", "ProtoTypeAPI\ProtoTypeAPI.csproj", "{9BD2866A-947A-4593-86E0-24DE92C163AB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoTypeAPI.Common", "ProtoTypeAPI.Common\ProtoTypeAPI.Common.csproj", "{41525D3D-5ABB-4E0E-8247-A281B7DA97DB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoTypeUI", "ProtoTypeUI\ProtoTypeUI.csproj", "{065CB39D-CA4B-476D-BF60-D4985EAEC848}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Common", "ProductList.Common\ProductList.Common.csproj", "{C0C7759F-46BA-423B-A3C0-B49577614411}"
@@ -15,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Model", "Produc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Repository", "ProductList.Repository\ProductList.Repository.csproj", "{FC13CE92-AC10-4F63-95E6-75EE7A45243E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductList.Service", "ProductList.Service\ProductList.Service.csproj", "{5E0404B6-C296-456F-BD7C-B3A3CAAC3E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Service", "ProductList.Service\ProductList.Service.csproj", "{5E0404B6-C296-456F-BD7C-B3A3CAAC3E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductList.Service.UniTests", "ProductList.Service.UniTests\ProductList.Service.UniTests.csproj", "{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Service.UniTests", "ProductList.Service.UniTests\ProductList.Service.UniTests.csproj", "{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListAPI", "ProductListAPI\ProductListAPI.csproj", "{B3D8E984-7AC5-4186-B130-E263922EF3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListAPI.Common", "ProductListAPI.Common\ProductListAPI.Common.csproj", "{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BD2866A-947A-4593-86E0-24DE92C163AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BD2866A-947A-4593-86E0-24DE92C163AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BD2866A-947A-4593-86E0-24DE92C163AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BD2866A-947A-4593-86E0-24DE92C163AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41525D3D-5ABB-4E0E-8247-A281B7DA97DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41525D3D-5ABB-4E0E-8247-A281B7DA97DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41525D3D-5ABB-4E0E-8247-A281B7DA97DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41525D3D-5ABB-4E0E-8247-A281B7DA97DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +49,14 @@ Global
 		{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D8E984-7AC5-4186-B130-E263922EF3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
