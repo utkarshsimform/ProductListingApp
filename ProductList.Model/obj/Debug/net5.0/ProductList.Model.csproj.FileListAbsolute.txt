@@ -1,0 +1,15 @@
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ProductList.Model.deps.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ProductList.Model.runtimeconfig.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ProductList.Model.runtimeconfig.dev.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ProductList.Model.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ref\ProductList.Model.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\bin\Debug\net5.0\ProductList.Model.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.AssemblyInfoInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.AssemblyInfo.cs
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.csproj.CoreCompileInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ref\ProductList.Model.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.genruntimeconfig.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.csproj.AssemblyReference.cache

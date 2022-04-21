@@ -4,14 +4,14 @@
     "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoTypeAPI\\ProtoTypeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj": {
+    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj",
-        "projectName": "ProtoType.Common",
-        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj",
+        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj",
+        "projectName": "ProductList.Common",
+        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj",
         "packagesPath": "C:\\Users\\utkarsh.prajapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\obj\\",
+        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utkarsh.prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
+    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj",
-        "projectName": "ProtoType.Model",
-        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj",
+        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj",
+        "projectName": "ProductList.Model",
+        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj",
         "packagesPath": "C:\\Users\\utkarsh.prajapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\obj\\",
+        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utkarsh.prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj": {
+    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj",
-        "projectName": "ProtoType.Repository",
-        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj",
+        "projectName": "ProductList.Repository",
+        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj",
         "packagesPath": "C:\\Users\\utkarsh.prajapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\obj\\",
+        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utkarsh.prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,8 +170,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj": {
+    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj",
-        "projectName": "ProtoType.Service",
-        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj",
+        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj",
+        "projectName": "ProductList.Service",
+        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj",
         "packagesPath": "C:\\Users\\utkarsh.prajapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\obj\\",
+        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utkarsh.prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -228,14 +228,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj"
               },
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj"
               },
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj"
               }
             }
           }
@@ -298,8 +298,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj"
               }
             }
           }
@@ -366,14 +366,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Common\\ProtoType.Common.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Common\\ProductList.Common.csproj"
               },
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj"
               },
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj"
               },
               "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoTypeAPI.Common\\ProtoTypeAPI.Common.csproj": {
                 "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoTypeAPI.Common\\ProtoTypeAPI.Common.csproj"

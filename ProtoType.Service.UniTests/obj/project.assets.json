@@ -2225,7 +2225,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "ProtoType.Common/1.0.0": {
+      "ProductList.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2234,13 +2234,13 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Common.dll": {}
+          "bin/placeholder/ProductList.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Common.dll": {}
+          "bin/placeholder/ProductList.Common.dll": {}
         }
       },
-      "ProtoType.Model/1.0.0": {
+      "ProductList.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2249,39 +2249,39 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Model.dll": {}
+          "bin/placeholder/ProductList.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Model.dll": {}
+          "bin/placeholder/ProductList.Model.dll": {}
         }
       },
-      "ProtoType.Repository/1.0.0": {
+      "ProductList.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "ProtoType.Model": "1.0.0"
+          "ProductList.Model": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Repository.dll": {}
+          "bin/placeholder/ProductList.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Repository.dll": {}
+          "bin/placeholder/ProductList.Repository.dll": {}
         }
       },
-      "ProtoType.Service/1.0.0": {
+      "ProductList.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "ProtoType.Common": "1.0.0",
-          "ProtoType.Model": "1.0.0",
-          "ProtoType.Repository": "1.0.0"
+          "ProductList.Common": "1.0.0",
+          "ProductList.Model": "1.0.0",
+          "ProductList.Repository": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Service.dll": {}
+          "bin/placeholder/ProductList.Service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Service.dll": {}
+          "bin/placeholder/ProductList.Service.dll": {}
         }
       }
     }
@@ -8246,25 +8246,25 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "ProtoType.Common/1.0.0": {
+    "ProductList.Common/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Common/ProtoType.Common.csproj",
-      "msbuildProject": "../ProtoType.Common/ProtoType.Common.csproj"
+      "path": "../ProductList.Common/ProductList.Common.csproj",
+      "msbuildProject": "../ProductList.Common/ProductList.Common.csproj"
     },
-    "ProtoType.Model/1.0.0": {
+    "ProductList.Model/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Model/ProtoType.Model.csproj",
-      "msbuildProject": "../ProtoType.Model/ProtoType.Model.csproj"
+      "path": "../ProductList.Model/ProductList.Model.csproj",
+      "msbuildProject": "../ProductList.Model/ProductList.Model.csproj"
     },
-    "ProtoType.Repository/1.0.0": {
+    "ProductList.Repository/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Repository/ProtoType.Repository.csproj",
-      "msbuildProject": "../ProtoType.Repository/ProtoType.Repository.csproj"
+      "path": "../ProductList.Repository/ProductList.Repository.csproj",
+      "msbuildProject": "../ProductList.Repository/ProductList.Repository.csproj"
     },
-    "ProtoType.Service/1.0.0": {
+    "ProductList.Service/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Service/ProtoType.Service.csproj",
-      "msbuildProject": "../ProtoType.Service/ProtoType.Service.csproj"
+      "path": "../ProductList.Service/ProductList.Service.csproj",
+      "msbuildProject": "../ProductList.Service/ProductList.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8276,7 +8276,7 @@
       "Moq >= 4.16.1",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 3.17.0",
-      "ProtoType.Service >= 1.0.0",
+      "ProductList.Service >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -8307,8 +8307,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj": {
-              "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Service\\ProtoType.Service.csproj"
+            "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj": {
+              "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Service\\ProductList.Service.csproj"
             }
           }
         }

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProtoType.Service\ProtoType.Service.csproj" />
+    <ProjectReference Include="..\ProductList.Service\ProductList.Service.csproj" />
   </ItemGroup>
 
 </Project>

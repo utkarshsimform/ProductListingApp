@@ -1,0 +1,12 @@
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\bin\Debug\net5.0\ProductList.Common.deps.json
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\bin\Debug\net5.0\ProductList.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\bin\Debug\net5.0\ref\ProductList.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\bin\Debug\net5.0\ProductList.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.AssemblyInfoInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.AssemblyInfo.cs
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.csproj.CoreCompileInputs.cache
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ref\ProductList.Common.dll
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.pdb
+C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Common\obj\Debug\net5.0\ProductList.Common.csproj.AssemblyReference.cache

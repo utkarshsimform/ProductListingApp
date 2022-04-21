@@ -9,9 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProtoType.Common\ProtoType.Common.csproj" />
-    <ProjectReference Include="..\ProtoType.Model\ProtoType.Model.csproj" />
-    <ProjectReference Include="..\ProtoType.Service\ProtoType.Service.csproj" />
+    <ProjectReference Include="..\ProductList.Common\ProductList.Common.csproj" />
+    <ProjectReference Include="..\ProductList.Model\ProductList.Model.csproj" />
+    <ProjectReference Include="..\ProductList.Service\ProductList.Service.csproj" />
     <ProjectReference Include="..\ProtoTypeAPI.Common\ProtoTypeAPI.Common.csproj" />
   </ItemGroup>
 

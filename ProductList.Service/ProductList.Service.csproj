@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ProductList.Common\ProductList.Common.csproj" />
+		<ProjectReference Include="..\ProductList.Model\ProductList.Model.csproj" />
+		<ProjectReference Include="..\ProductList.Repository\ProductList.Repository.csproj" />
+	</ItemGroup>
+	
+</Project>

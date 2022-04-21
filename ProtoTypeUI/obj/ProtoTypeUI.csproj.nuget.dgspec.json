@@ -4,14 +4,14 @@
     "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoTypeUI\\ProtoTypeUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
+    "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj",
-        "projectName": "ProtoType.Model",
-        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj",
+        "projectUniqueName": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj",
+        "projectName": "ProductList.Model",
+        "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj",
         "packagesPath": "C:\\Users\\utkarsh.prajapati\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\obj\\",
+        "outputPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utkarsh.prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,8 +102,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj": {
-                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Model\\ProtoType.Model.csproj"
+              "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj": {
+                "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Model\\ProductList.Model.csproj"
               }
             }
           }

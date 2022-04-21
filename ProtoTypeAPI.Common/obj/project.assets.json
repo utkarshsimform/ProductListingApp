@@ -1416,7 +1416,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ProtoType.Model/1.0.0": {
+      "ProductList.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1425,23 +1425,23 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Model.dll": {}
+          "bin/placeholder/ProductList.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Model.dll": {}
+          "bin/placeholder/ProductList.Model.dll": {}
         }
       },
-      "ProtoType.Repository/1.0.0": {
+      "ProductList.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "ProtoType.Model": "1.0.0"
+          "ProductList.Model": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ProtoType.Repository.dll": {}
+          "bin/placeholder/ProductList.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProtoType.Repository.dll": {}
+          "bin/placeholder/ProductList.Repository.dll": {}
         }
       }
     }
@@ -5410,22 +5410,22 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ProtoType.Model/1.0.0": {
+    "ProductList.Model/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Model/ProtoType.Model.csproj",
-      "msbuildProject": "../ProtoType.Model/ProtoType.Model.csproj"
+      "path": "../ProductList.Model/ProductList.Model.csproj",
+      "msbuildProject": "../ProductList.Model/ProductList.Model.csproj"
     },
-    "ProtoType.Repository/1.0.0": {
+    "ProductList.Repository/1.0.0": {
       "type": "project",
-      "path": "../ProtoType.Repository/ProtoType.Repository.csproj",
-      "msbuildProject": "../ProtoType.Repository/ProtoType.Repository.csproj"
+      "path": "../ProductList.Repository/ProductList.Repository.csproj",
+      "msbuildProject": "../ProductList.Repository/ProductList.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.3",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
-      "ProtoType.Repository >= 1.0.0"
+      "ProductList.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5455,8 +5455,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj": {
-              "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProtoType.Repository\\ProtoType.Repository.csproj"
+            "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj": {
+              "projectPath": "C:\\Users\\utkarsh.prajapati\\Downloads\\SampleProject\\ProtoType\\ProductList.Repository\\ProductList.Repository.csproj"
             }
           }
         }
