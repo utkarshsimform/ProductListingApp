@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtoTypeUI", "ProtoTypeUI\ProtoTypeUI.csproj", "{065CB39D-CA4B-476D-BF60-D4985EAEC848}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Common", "ProductList.Common\ProductList.Common.csproj", "{C0C7759F-46BA-423B-A3C0-B49577614411}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Model", "ProductList.Model\ProductList.Model.csproj", "{547348C8-0848-4755-A11D-8174B243C473}"
@@ -15,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Service", "Prod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductList.Service.UniTests", "ProductList.Service.UniTests\ProductList.Service.UniTests.csproj", "{8F9A5A37-0FF3-446B-A343-33D3D1C5B0A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListAPI", "ProductListAPI\ProductListAPI.csproj", "{B3D8E984-7AC5-4186-B130-E263922EF3A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductListAPI", "ProductListAPI\ProductListAPI.csproj", "{B3D8E984-7AC5-4186-B130-E263922EF3A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListAPI.Common", "ProductListAPI.Common\ProductListAPI.Common.csproj", "{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductListAPI.Common", "ProductListAPI.Common\ProductListAPI.Common.csproj", "{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductListUI", "ProductListUI\ProductListUI.csproj", "{ADA33895-58DF-4D04-831B-B888A5E8CCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{065CB39D-CA4B-476D-BF60-D4985EAEC848}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0C7759F-46BA-423B-A3C0-B49577614411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0C7759F-46BA-423B-A3C0-B49577614411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0C7759F-46BA-423B-A3C0-B49577614411}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +53,10 @@ Global
 		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AC3C7BB-6B7E-475B-9454-99C25F53B61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA33895-58DF-4D04-831B-B888A5E8CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

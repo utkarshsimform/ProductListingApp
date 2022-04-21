@@ -5,16 +5,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Extensions\**" />
+	  <EmbeddedResource Remove="Extensions\**" />
+	  <None Remove="Extensions\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.3" />
 		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\ProductList.Repository\ProductList.Repository.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Extensions\" />
 	</ItemGroup>
 
 </Project>

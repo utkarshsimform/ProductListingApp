@@ -12,4 +12,3 @@ C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\o
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ref\ProductList.Model.dll
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.pdb
 C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.genruntimeconfig.cache
-C:\Users\utkarsh.prajapati\Downloads\SampleProject\ProtoType\ProductList.Model\obj\Debug\net5.0\ProductList.Model.csproj.AssemblyReference.cache
